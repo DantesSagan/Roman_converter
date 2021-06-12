@@ -8,8 +8,13 @@ body {
   );
 }
 h1 {
-  font-size: 72px;
+  font-size: calc(100% + 1vw + 1vh);
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
 }
