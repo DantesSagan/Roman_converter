@@ -13,7 +13,9 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+hr {
+  border: 0.25px solid black;
+}
 .center {
   text-align: center;
   justify-content: center;
